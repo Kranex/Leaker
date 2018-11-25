@@ -6,7 +6,7 @@ For this reason there are a couple of drawbacks to leaker, the primary being tha
 While there is no problem including stdlib, if you do it is recommended to include leaker _after_ stdlib. 
  
  Example: 
- ```
+ ``` c
  #include <stdio.h>
  #include <leaker.h>
  
