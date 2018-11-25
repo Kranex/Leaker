@@ -17,3 +17,12 @@ While there is no problem including stdlib, if you do it is recommended to inclu
     return 0;
 }
  ```
+
+You can either directly add the library to your source or you can build it and install it as a library using the following commands:
+```
+mkdir build
+cd build
+cmake ..
+make
+make install
+```
